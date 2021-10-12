@@ -21,6 +21,10 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     text-align: center;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    flex-grow: 0;
+}
+
 main img {
     width: 100%;
     border-radius: 15px;
@@ -50,7 +54,7 @@ main img {
         flex-basis: auto;
     }
     .navbar-nav {
-    flex-direction: row;
+        flex-direction: row;
     }
     .mb-lg-0 {
         margin-bottom: 0!important;
