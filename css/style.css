@@ -1,9 +1,23 @@
 /* debug rules */
 [class*="debug"] {
-    /* height: 200px; */
+    /* height: 200px;
     background-color: blueviolet;
     border: 1px solid black;
-    color: black;
+    color: black; */
+    text-align: center;
+}
+/* 
+#jumbotron .debug {
+    background-color: tomato;
+    height: 200px;
+}
+
+footer .debug {
+    background-color: grey;
+} */
+
+/* other rules */
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     text-align: center;
 }
 
@@ -11,11 +25,6 @@ main img {
     width: 100%;
     border-radius: 15px;
     margin: 20px 0;
-}
-
-#jumbotron .debug {
-    background-color: tomato;
-    /* height: 200px; */
 }
 
 #jumbotron img {
@@ -26,6 +35,22 @@ main img {
     font-size: 45px;
 }
 
-footer .debug {
-    background-color: grey;
+@media (min-width: 768px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-nav {
+    flex-direction: row;
+    }
+    .mb-lg-0 {
+        margin-bottom: 0!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
 }
