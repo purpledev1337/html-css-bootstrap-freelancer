@@ -1,6 +1,6 @@
 /* debug rules */
 [class*="debug"] {
-    /* height: 100px; */
+    /* height: 200px; */
     background-color: blueviolet;
     border: 1px solid black;
     color: black;
@@ -10,11 +10,20 @@
 main img {
     width: 100%;
     border-radius: 15px;
+    margin: 20px 0;
 }
 
 #jumbotron .debug {
     background-color: tomato;
     /* height: 200px; */
+}
+
+#jumbotron img {
+    height: 300px;
+}
+
+.section_title {
+    font-size: 45px;
 }
 
 footer .debug {
