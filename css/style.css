@@ -86,7 +86,6 @@ header .navbar-toggler-icon {
 }
 
 #footer-top .footer_icons i {
-    font-size: 18px;
     border: 1px solid white;
     border-radius: 50%;
     padding: 0.5em;
@@ -105,11 +104,16 @@ header .navbar-toggler-icon {
 .navbar-toggler {
     font-size: initial;
 }
+
+
 @media all and (max-width:767px) {
     span.fw-bold {
         font-size: 35px;
     }
     .starlines {
         width: 50vw;
+    }
+    form div:last-child button {
+        width: 50%!important;
     }
 }
