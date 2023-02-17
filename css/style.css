@@ -4,6 +4,11 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* stars rules */
 .starlines {
     width: 25vw;
