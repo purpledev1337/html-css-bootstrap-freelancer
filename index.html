@@ -179,4 +179,11 @@
         </footer>
 
 </body>
+<script>
+    document.querySelectorAll(".navbar-nav>li>a").forEach(link => {
+        link.addEventListener("click", function () {
+            document.querySelector(".navbar-collapse").classList = "navbar-collapse collapse";
+        })
+    })
+</script>
 </html>
