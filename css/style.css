@@ -49,6 +49,7 @@ header .navbar-toggler-icon {
 
 #jumbotron {
     background-color: #1abc9c;
+    margin-top: 96px;
 }
 
 #jumbotron img {
